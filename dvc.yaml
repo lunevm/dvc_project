@@ -1,0 +1,7 @@
+stages:
+  my_stage:
+    cmd: python src/get_df.py
+    deps:
+    - src/get_df.py
+    outs:
+    - data/df.csv

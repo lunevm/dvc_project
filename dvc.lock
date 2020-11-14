@@ -1,0 +1,8 @@
+my_stage:
+  cmd: python src/get_df.py
+  deps:
+  - path: src/get_df.py
+    md5: e877e6489b810a953a436bc3ad430eb9
+  outs:
+  - path: data/df.csv
+    md5: de36e39efc83346852d7494f1b5ec95e
